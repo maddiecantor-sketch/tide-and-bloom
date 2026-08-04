@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Search — Tide & Bloom</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="components.css">
+</head>
+<body>
+  <header class="site-header wrap">
+    <a class="logo" href="index.html">Tide &amp; Bloom</a>
+    <nav>
+      <a href="amalfi.html">Collections</a>
+      <a href="wishlist.html">Wishlist <span data-wishlist-count>0</span></a>
+      <a href="cart.html">Bag <span data-cart-count>0</span></a>
+    </nav>
+  </header>
+
+  <main class="wrap page-shell">
+    <section class="section-heading">
+      <p class="eyebrow">Find your coastal favorite</p>
+      <h1>Search the collection</h1>
+    </section>
+
+    <section class="search-panel">
+      <input id="search-input" type="search" placeholder="Search swim, towels, family sets..." autocomplete="off">
+      <select id="category-filter">
+        <option value="all">All categories</option>
+      </select>
+      <select id="sort-filter">
+        <option value="featured">Featured</option>
+        <option value="price-low">Price: low to high</option>
+        <option value="price-high">Price: high to low</option>
+        <option value="newest">Newest</option>
+      </select>
+    </section>
+
+    <p id="result-count" class="muted"></p>
+    <section id="search-results" class="product-grid" aria-live="polite"></section>
+  </main>
+
+  <script src="store.js"></script>
+  <script src="catalog.js"></script>
+  <script src="search.js"></script>
+</body>
+</html>
