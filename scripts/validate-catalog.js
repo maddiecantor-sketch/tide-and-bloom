@@ -58,8 +58,14 @@ function validateProducts(data) {
   products.forEach((product, index) => {
     const label = product.title || product.name || product.id || `product ${index + 1}`;
     const id = product.id || product.handle || product.sku;
-    const sku = product.sku || product.baseSku;
-    const price = Number(product.price ?? product.retailPrice ?? product.retail_price);
+    const sku = product.sku || product.baseSku || product.id;
+    const price = Number(
+      product.price ??
+      product.target_price ??
+      product.targetPrice ??
+      product.retailPrice ??
+      product.retail_price
+    );
 
     if (!id) report('error', `${label} is missing an id, handle, or SKU.`);
     if (id && ids.has(id)) report('error', `Duplicate product identifier: ${id}`);
@@ -73,14 +79,23 @@ function validateProducts(data) {
     if (!product.category) report('error', `${label} is missing a category.`);
     if (!Number.isFinite(price) || price <= 0) report('error', `${label} has an invalid retail price.`);
 
+    const estimatedCost = Number(
+      product.estimated_cost ??
+      product.estimatedCost ??
+      product.cost
+    );
+    if (Number.isFinite(estimatedCost) && estimatedCost >= price) {
+      report('error', `${label} has a cost that is greater than or equal to its retail price.`);
+    }
+
     const media = product.media || product.images || [];
     const mediaText = JSON.stringify(media).toLowerCase();
     if (!mediaText || mediaText === '[]') report('warning', `${label} has no product media assigned yet.`);
     if (mediaText.includes('placeholder')) report('warning', `${label} still contains placeholder media.`);
 
     const status = String(product.status || '').toLowerCase();
-    if (status === 'active' && mediaText.includes('placeholder')) {
-      report('error', `${label} cannot be active while placeholder media remains.`);
+    if (status === 'active' && (!mediaText || mediaText === '[]' || mediaText.includes('placeholder'))) {
+      report('error', `${label} cannot be active until approved product media is assigned.`);
     }
   });
 
