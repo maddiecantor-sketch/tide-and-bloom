@@ -1,0 +1,38 @@
+:root {
+  --tb-cream:#FBF8F3;
+  --tb-sand:#E9DFC9;
+  --tb-blush:#F3D6D2;
+  --tb-coral:#D98868;
+  --tb-butter:#F0D98A;
+  --tb-seafoam:#BFD8CF;
+  --tb-sky:#C9DCE8;
+  --tb-ocean:#204B57;
+  --tb-navy:#1D3557;
+  --tb-ink:#2B2620;
+  --tb-white:#FFFFFF;
+  --tb-display:'Cormorant Garamond', Georgia, serif;
+  --tb-body:'Jost', Arial, sans-serif;
+  --tb-radius:18px;
+  --tb-shadow:0 16px 40px rgba(43,38,32,.10);
+}
+
+.tb-button{display:inline-flex;align-items:center;justify-content:center;min-height:46px;padding:0 22px;border:1px solid var(--tb-ink);border-radius:999px;font:500 .78rem/1 var(--tb-body);letter-spacing:.12em;text-transform:uppercase;text-decoration:none;cursor:pointer;transition:.25s ease}
+.tb-button--primary{background:var(--tb-ink);color:var(--tb-white)}
+.tb-button--secondary{background:transparent;color:var(--tb-ink)}
+.tb-button:hover{transform:translateY(-2px);box-shadow:var(--tb-shadow)}
+
+.tb-product-card{background:var(--tb-white);border-radius:var(--tb-radius);overflow:hidden;box-shadow:0 8px 24px rgba(43,38,32,.07);transition:.3s ease}
+.tb-product-card:hover{transform:translateY(-6px);box-shadow:var(--tb-shadow)}
+.tb-product-card__media{aspect-ratio:4/5;background:linear-gradient(145deg,var(--tb-sand),var(--tb-blush));overflow:hidden}
+.tb-product-card__media img{width:100%;height:100%;object-fit:cover}
+.tb-product-card__body{padding:18px}
+.tb-product-card__eyebrow{font:500 .7rem/1.2 var(--tb-body);letter-spacing:.14em;text-transform:uppercase;color:var(--tb-ocean)}
+.tb-product-card__title{margin:.45rem 0;font:500 1.4rem/1.1 var(--tb-display);color:var(--tb-ink)}
+.tb-product-card__price{font:400 .92rem/1.4 var(--tb-body);color:#6B6255}
+
+.tb-badge{display:inline-flex;padding:7px 11px;border-radius:999px;background:var(--tb-butter);font:500 .68rem/1 var(--tb-body);letter-spacing:.08em;text-transform:uppercase;color:var(--tb-ink)}
+.tb-section-heading{max-width:760px;margin:0 auto 32px;text-align:center}
+.tb-section-heading h2{margin:0;font:500 clamp(2.4rem,6vw,4.8rem)/.95 var(--tb-display);color:var(--tb-ink)}
+.tb-section-heading p{margin:16px auto 0;max-width:620px;font:300 1rem/1.7 var(--tb-body);color:#6B6255}
+
+@media (max-width:640px){.tb-button{width:100%}.tb-product-card__body{padding:15px}.tb-product-card__title{font-size:1.2rem}}
