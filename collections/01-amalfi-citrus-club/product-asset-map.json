@@ -1,0 +1,78 @@
+{
+  "collection": "Amalfi Citrus Club",
+  "status": "pilot",
+  "products": [
+    {
+      "handle": "amalfi-womens-one-piece",
+      "name": "Amalfi Citrus One-Piece",
+      "category": "women-swim",
+      "primary_asset": "01-hero-seamless-print.png",
+      "coordinate_assets": ["04-stripe.png"],
+      "placement_graphics": ["pocket-graphic.png"],
+      "mockups_required": ["front-studio", "back-studio", "poolside-editorial", "detail-fabric"]
+    },
+    {
+      "handle": "amalfi-bikini-set",
+      "name": "Amalfi Citrus Bikini Set",
+      "category": "women-swim",
+      "primary_asset": "02-secondary-seamless-print.png",
+      "coordinate_assets": ["04-stripe.png"],
+      "placement_graphics": [],
+      "mockups_required": ["front-studio", "back-studio", "beach-editorial", "detail-fabric"]
+    },
+    {
+      "handle": "amalfi-mens-trunks",
+      "name": "Amalfi Citrus Swim Trunks",
+      "category": "men-swim",
+      "primary_asset": "01-hero-seamless-print.png",
+      "coordinate_assets": ["04-stripe.png"],
+      "placement_graphics": ["badge-logo.png"],
+      "mockups_required": ["front-studio", "back-studio", "resort-editorial", "waistband-detail"]
+    },
+    {
+      "handle": "amalfi-girls-one-piece",
+      "name": "Mini Amalfi One-Piece",
+      "category": "kids-swim",
+      "primary_asset": "03-coordinate-print.png",
+      "coordinate_assets": ["01-hero-seamless-print.png"],
+      "placement_graphics": [],
+      "mockups_required": ["front-studio", "back-studio", "family-editorial"]
+    },
+    {
+      "handle": "amalfi-boys-trunks",
+      "name": "Mini Amalfi Swim Trunks",
+      "category": "kids-swim",
+      "primary_asset": "01-hero-seamless-print.png",
+      "coordinate_assets": ["04-stripe.png"],
+      "placement_graphics": ["badge-logo.png"],
+      "mockups_required": ["front-studio", "back-studio", "family-editorial"]
+    },
+    {
+      "handle": "amalfi-resort-tee",
+      "name": "Amalfi Citrus Resort Tee",
+      "category": "graphic-tees",
+      "primary_asset": "06-texture-print.png",
+      "coordinate_assets": [],
+      "placement_graphics": ["pocket-graphic.png", "back-graphic.png"],
+      "mockups_required": ["front-flat", "back-flat", "model-editorial", "graphic-detail"]
+    },
+    {
+      "handle": "amalfi-cabana-towel",
+      "name": "Amalfi Cabana Towel",
+      "category": "home-accessories",
+      "primary_asset": "04-stripe.png",
+      "coordinate_assets": ["01-hero-seamless-print.png"],
+      "placement_graphics": ["collection-logo.png"],
+      "mockups_required": ["flat-lay", "pool-lounger", "folded-detail"]
+    },
+    {
+      "handle": "amalfi-canvas-tote",
+      "name": "Amalfi Citrus Market Tote",
+      "category": "accessories",
+      "primary_asset": "06-texture-print.png",
+      "coordinate_assets": [],
+      "placement_graphics": ["collection-logo.png"],
+      "mockups_required": ["front-studio", "shoulder-editorial", "detail-print"]
+    }
+  ]
+}
