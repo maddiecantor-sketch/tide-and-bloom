@@ -1,0 +1,33 @@
+name: Validate Tide & Bloom Data
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'production/**'
+      - 'collections/**'
+      - 'scripts/validate-catalog.js'
+      - '.github/workflows/validate-project.yml'
+  pull_request:
+    paths:
+      - 'production/**'
+      - 'collections/**'
+      - 'scripts/validate-catalog.js'
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Validate product and collection data
+        run: node scripts/validate-catalog.js
