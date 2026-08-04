@@ -1,0 +1,76 @@
+:root {
+  --focus-ring: 3px solid #1f4e5b;
+}
+
+.skip-link {
+  position: fixed;
+  left: 1rem;
+  top: 1rem;
+  z-index: 9999;
+  padding: 0.75rem 1rem;
+  background: #ffffff;
+  color: #1f2933;
+  border: 1px solid #1f2933;
+  border-radius: 999px;
+  transform: translateY(-200%);
+  transition: transform 160ms ease;
+}
+
+.skip-link:focus {
+  transform: translateY(0);
+}
+
+:focus-visible {
+  outline: var(--focus-ring);
+  outline-offset: 3px;
+}
+
+[aria-current="page"] {
+  text-decoration: underline;
+  text-underline-offset: 0.35em;
+  text-decoration-thickness: 2px;
+}
+
+.sr-only {
+  position: absolute !important;
+  width: 1px !important;
+  height: 1px !important;
+  padding: 0 !important;
+  margin: -1px !important;
+  overflow: hidden !important;
+  clip: rect(0, 0, 0, 0) !important;
+  white-space: nowrap !important;
+  border: 0 !important;
+}
+
+.image-fallback {
+  display: grid;
+  min-height: 18rem;
+  place-items: center;
+  padding: 1.5rem;
+  background: linear-gradient(145deg, #fbf8f3, #e8f0ef);
+  border: 1px solid rgba(43, 38, 32, 0.12);
+  color: #6b6255;
+  text-align: center;
+  font-size: 0.875rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    scroll-behavior: auto !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+@media (forced-colors: active) {
+  .image-fallback,
+  button,
+  .button,
+  a {
+    border: 1px solid CanvasText;
+  }
+}
