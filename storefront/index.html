@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Tide & Bloom — luxury coastal collections made for sunny days and salty waves.">
+  <title>Tide & Bloom</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="announcement">Free U.S. shipping on orders over $100</div>
+
+  <header class="site-header">
+    <button class="icon-button mobile-menu" aria-label="Open menu">☰</button>
+    <nav class="desktop-nav" aria-label="Primary navigation">
+      <a href="#shop">Shop</a>
+      <a href="#collections">Collections</a>
+      <a href="#story">Our Story</a>
+    </nav>
+    <a class="wordmark" href="#">Tide &amp; Bloom</a>
+    <div class="header-actions">
+      <button class="icon-button" aria-label="Search">⌕</button>
+      <button class="icon-button" aria-label="Shopping bag">Bag <span id="bag-count">0</span></button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-art" aria-hidden="true">
+        <span class="sun"></span>
+        <span class="tile tile-one"></span>
+        <span class="tile tile-two"></span>
+        <span class="lemon lemon-one">🍋</span>
+        <span class="lemon lemon-two">🍋</span>
+      </div>
+      <div class="hero-copy">
+        <p class="eyebrow">Spring 2027 · Collection 01</p>
+        <h1>Amalfi Citrus Club</h1>
+        <p>Italian-coast color, playful citrus, and matching resort pieces designed for long lunches and salty afternoons.</p>
+        <div class="button-row">
+          <a class="button button-dark" href="#shop">Shop the collection</a>
+          <a class="button button-light" href="#collections">Explore the story</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="marquee" aria-label="Brand values">
+      <span>Sun-washed color</span><span>Original artwork</span><span>Family matching</span><span>Made for vacation</span>
+    </section>
+
+    <section class="section" id="collections">
+      <div class="section-heading">
+        <p class="eyebrow">The collection world</p>
+        <h2>Meet the first escape</h2>
+      </div>
+      <div class="editorial-grid">
+        <article class="story-card large-card">
+          <div class="art-panel citrus-panel"></div>
+          <p class="eyebrow">Hero print</p>
+          <h3>La Dolce Limone</h3>
+          <p>Loose watercolor lemons, hand-painted tile details, coral bows, and tiny postcard marks.</p>
+        </article>
+        <article class="story-card">
+          <div class="art-panel stripe-panel"></div>
+          <p class="eyebrow">Coordinate</p>
+          <h3>Cabana Stripe</h3>
+          <p>Soft Amalfi blue and cream stripes built for towels, trims, and resort separates.</p>
+        </article>
+        <article class="story-card">
+          <div class="art-panel stamp-panel"></div>
+          <p class="eyebrow">Placement art</p>
+          <h3>Postcard Club</h3>
+          <p>Vintage-inspired travel stamps and relaxed graphics for tees, totes, and accessories.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section shop-section" id="shop">
+      <div class="section-heading split-heading">
+        <div>
+          <p class="eyebrow">Pilot assortment</p>
+          <h2>Made to match</h2>
+        </div>
+        <p>These starter products are connected to the collection catalog and will be replaced with exact production mockups.</p>
+      </div>
+      <div class="product-grid" id="product-grid"></div>
+    </section>
+
+    <section class="story-section" id="story">
+      <div>
+        <p class="eyebrow">Tide & Bloom</p>
+        <h2>Vacation pieces with a little more story.</h2>
+      </div>
+      <p>Original coastal prints, coordinated collections, and joyful products for women, men, children, and home—created to feel collected rather than mass produced.</p>
+    </section>
+  </main>
+
+  <footer>
+    <a class="wordmark" href="#">Tide &amp; Bloom</a>
+    <p>Made for Sunny Days &amp; Salty Waves</p>
+    <p>© <span id="year"></span> Tide & Bloom</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
