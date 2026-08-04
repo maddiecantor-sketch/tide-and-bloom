@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Amalfi Citrus Club One-Piece | Tide & Bloom</title>
+  <meta name="description" content="Premium citrus-print resort swimwear by Tide & Bloom.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="components.css">
+</head>
+<body>
+  <div class="announcement">Free U.S. shipping on orders over $100</div>
+  <header class="site-header wrap">
+    <a class="wordmark" href="index.html">Tide &amp; Bloom</a>
+    <nav aria-label="Primary navigation">
+      <a href="amalfi.html">Collections</a>
+      <a href="#details">Details</a>
+      <a href="#matching">Matching Sets</a>
+    </nav>
+    <button class="bag-button" type="button" aria-label="Open shopping bag">Bag <span id="bag-count">0</span></button>
+  </header>
+
+  <main>
+    <section class="product-layout wrap">
+      <div class="product-gallery" aria-label="Product images">
+        <div class="product-image primary-image" role="img" aria-label="Reserved approved front mockup">Approved front mockup</div>
+        <div class="product-image" role="img" aria-label="Reserved approved back mockup">Approved back mockup</div>
+        <div class="product-image" role="img" aria-label="Reserved approved detail image">Approved print detail</div>
+        <div class="product-image" role="img" aria-label="Reserved approved lifestyle image">Approved lifestyle image</div>
+      </div>
+
+      <aside class="product-info">
+        <p class="eyebrow">Amalfi Citrus Club</p>
+        <h1>Amalfi Citrus One-Piece</h1>
+        <p class="product-price">$88.00</p>
+        <p class="product-lede">A polished resort one-piece wrapped in our original watercolor citrus story, designed for sunny afternoons and matching family moments.</p>
+
+        <fieldset class="size-picker">
+          <legend>Size</legend>
+          <div class="size-options" id="size-options"></div>
+        </fieldset>
+
+        <button class="button button-primary add-product" id="add-product" type="button">Add to Bag</button>
+        <p class="product-note">Made to order. Please review sizing before purchase.</p>
+
+        <div class="accordion" id="details">
+          <details open>
+            <summary>Product details</summary>
+            <p>Supportive resort silhouette, smooth stretch fabric, full lining, and an all-over print mapped from the approved hero seamless tile.</p>
+          </details>
+          <details>
+            <summary>Artwork and production</summary>
+            <p>The production file must use the exact approved Amalfi hero print. Mockups may not substitute regenerated or approximate artwork.</p>
+          </details>
+          <details>
+            <summary>Shipping and returns</summary>
+            <p>Production and shipping policies will be finalized when the POD supplier is selected and sample quality is approved.</p>
+          </details>
+        </div>
+      </aside>
+    </section>
+
+    <section class="matching-section wrap" id="matching">
+      <p class="eyebrow">Made to Match</p>
+      <h2>Complete the family set</h2>
+      <div class="matching-grid" id="matching-grid"></div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <strong>Tide &amp; Bloom</strong>
+      <span>Made for Sunny Days &amp; Salty Waves</span>
+    </div>
+  </footer>
+  <script src="product.js"></script>
+</body>
+</html>
