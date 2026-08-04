@@ -1,0 +1,83 @@
+{
+  "version": "1.0.0",
+  "description": "Shopify-ready canonical product structure for Tide & Bloom.",
+  "requiredFields": [
+    "handle",
+    "title",
+    "collection",
+    "department",
+    "productType",
+    "vendor",
+    "status",
+    "descriptionHtml",
+    "tags",
+    "options",
+    "variants",
+    "media",
+    "seo",
+    "artwork"
+  ],
+  "productTemplate": {
+    "handle": "amalfi-citrus-club-womens-one-piece",
+    "title": "Amalfi Citrus Club One-Piece Swimsuit",
+    "collection": "Amalfi Citrus Club",
+    "department": "Women's Swim",
+    "productType": "One-Piece Swimsuit",
+    "vendor": "Tide & Bloom",
+    "status": "draft",
+    "descriptionHtml": "<p>A sun-washed resort one-piece featuring the Amalfi Citrus Club hero print.</p>",
+    "tags": [
+      "amalfi-citrus-club",
+      "womens-swim",
+      "resortwear",
+      "matching-family",
+      "new-arrival"
+    ],
+    "options": [
+      {
+        "name": "Size",
+        "values": ["XS", "S", "M", "L", "XL", "2XL"]
+      }
+    ],
+    "variants": [
+      {
+        "sku": "TB-ACC-WS-OP-XS",
+        "optionValues": {"Size": "XS"},
+        "price": 88,
+        "compareAtPrice": null,
+        "cost": 31,
+        "inventoryPolicy": "continue",
+        "fulfillmentService": "pod",
+        "weightGrams": 240,
+        "barcode": null
+      }
+    ],
+    "media": [
+      {
+        "role": "primary",
+        "path": "assets/amalfi/mockups/womens-one-piece-front.jpg",
+        "alt": "Amalfi Citrus Club women's one-piece swimsuit front view"
+      },
+      {
+        "role": "back",
+        "path": "assets/amalfi/mockups/womens-one-piece-back.jpg",
+        "alt": "Amalfi Citrus Club women's one-piece swimsuit back view"
+      },
+      {
+        "role": "detail",
+        "path": "assets/amalfi/mockups/womens-one-piece-detail.jpg",
+        "alt": "Close-up of Amalfi Citrus Club citrus print"
+      }
+    ],
+    "seo": {
+      "title": "Amalfi Citrus Club One-Piece Swimsuit | Tide & Bloom",
+      "description": "A premium citrus-print resort swimsuit designed for sunny days, salty waves, and matching family moments."
+    },
+    "artwork": {
+      "primaryAsset": "01-hero-seamless-print.png",
+      "placement": "all-over-print",
+      "repeatScalePercent": 38,
+      "approved": false
+    }
+  }
+}
