@@ -1,0 +1,22 @@
+{
+  "collection": "Amalfi Citrus Club",
+  "status": "pilot",
+  "source_of_truth": true,
+  "required_assets": [
+    {"id":"amalfi-hero-print","type":"seamless-pattern","filename":"01-amalfi-hero-seamless-print.png","size_px":"6000x6000","dpi":300,"background":"opaque","status":"not-started"},
+    {"id":"amalfi-secondary-print","type":"seamless-pattern","filename":"02-amalfi-secondary-seamless-print.png","size_px":"6000x6000","dpi":300,"background":"opaque","status":"not-started"},
+    {"id":"amalfi-coordinate-print","type":"seamless-pattern","filename":"03-amalfi-coordinate-print.png","size_px":"4000x4000","dpi":300,"background":"opaque","status":"not-started"},
+    {"id":"amalfi-stripe","type":"seamless-pattern","filename":"04-amalfi-stripe.png","size_px":"4000x4000","dpi":300,"background":"opaque","status":"not-started"},
+    {"id":"amalfi-mini-print","type":"seamless-pattern","filename":"05-amalfi-mini-print.png","size_px":"4000x4000","dpi":300,"background":"opaque","status":"not-started"},
+    {"id":"amalfi-texture","type":"seamless-texture","filename":"06-amalfi-linen-texture.png","size_px":"4000x4000","dpi":300,"background":"opaque","status":"not-started"},
+    {"id":"amalfi-front-graphic","type":"placement-graphic","filename":"front-graphic.png","size_px":"4500x5400","dpi":300,"background":"transparent","status":"not-started"},
+    {"id":"amalfi-back-graphic","type":"placement-graphic","filename":"back-graphic.png","size_px":"4500x5400","dpi":300,"background":"transparent","status":"not-started"},
+    {"id":"amalfi-pocket-graphic","type":"placement-graphic","filename":"pocket-graphic.png","size_px":"2400x2400","dpi":300,"background":"transparent","status":"not-started"},
+    {"id":"amalfi-sleeve-graphic","type":"placement-graphic","filename":"sleeve-graphic.png","size_px":"2400x2400","dpi":300,"background":"transparent","status":"not-started"},
+    {"id":"amalfi-badge-logo","type":"logo","filename":"badge-logo.png","size_px":"3000x3000","dpi":300,"background":"transparent","status":"not-started"},
+    {"id":"amalfi-collection-logo","type":"logo","filename":"collection-logo.png","size_px":"4000x2000","dpi":300,"background":"transparent","status":"not-started"},
+    {"id":"amalfi-sticker-pack","type":"sticker-sheet","filename":"sticker-pack.png","size_px":"4500x5400","dpi":300,"background":"transparent","status":"not-started"},
+    {"id":"amalfi-embroidery-patch","type":"embroidery-art","filename":"embroidery-patch.png","size_px":"3000x3000","dpi":300,"background":"transparent","status":"not-started"}
+  ],
+  "approval_rule": "No mockup or storefront image may be finalized until its exact source artwork is approved and stored under this manifest."
+}
