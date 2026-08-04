@@ -1,0 +1,77 @@
+{
+  "currency": "USD",
+  "pricing_policy": {
+    "target_gross_margin_percent": 60,
+    "minimum_net_margin_percent": 35,
+    "rounding": ".00 or .95"
+  },
+  "pilot_collection": "amalfi-citrus-club",
+  "products": [
+    {
+      "id": "TB-COL01-WSWIM-001",
+      "collection": "Amalfi Citrus Club",
+      "title": "Amalfi Citrus One-Piece",
+      "category": "Women's Swim",
+      "artwork": "hero-print",
+      "variants": ["XS", "S", "M", "L", "XL", "2XL"],
+      "estimated_cost": 28,
+      "target_price": 88,
+      "status": "planned"
+    },
+    {
+      "id": "TB-COL01-BIKINI-001",
+      "collection": "Amalfi Citrus Club",
+      "title": "Limone Triangle Bikini",
+      "category": "Women's Swim",
+      "artwork": "hero-print",
+      "variants": ["XS", "S", "M", "L", "XL"],
+      "estimated_cost": 26,
+      "target_price": 84,
+      "status": "planned"
+    },
+    {
+      "id": "TB-COL01-MTRUNK-001",
+      "collection": "Amalfi Citrus Club",
+      "title": "Amalfi Men's Swim Trunks",
+      "category": "Men's Swim",
+      "artwork": "secondary-print",
+      "variants": ["S", "M", "L", "XL", "2XL"],
+      "estimated_cost": 24,
+      "target_price": 68,
+      "status": "planned"
+    },
+    {
+      "id": "TB-COL01-KSWIM-001",
+      "collection": "Amalfi Citrus Club",
+      "title": "Little Limone Swimsuit",
+      "category": "Kids Swim",
+      "artwork": "hero-print",
+      "variants": ["2T", "3T", "4T", "5T", "6", "8", "10"],
+      "estimated_cost": 20,
+      "target_price": 52,
+      "status": "planned"
+    },
+    {
+      "id": "TB-COL01-TOWEL-001",
+      "collection": "Amalfi Citrus Club",
+      "title": "Amalfi Cabana Towel",
+      "category": "Home & Beach",
+      "artwork": "stripe-print",
+      "variants": ["One Size"],
+      "estimated_cost": 18,
+      "target_price": 48,
+      "status": "planned"
+    },
+    {
+      "id": "TB-COL01-TOTE-001",
+      "collection": "Amalfi Citrus Club",
+      "title": "Citrus Club Market Tote",
+      "category": "Accessories",
+      "artwork": "front-graphic",
+      "variants": ["One Size"],
+      "estimated_cost": 14,
+      "target_price": 38,
+      "status": "planned"
+    }
+  ]
+}
