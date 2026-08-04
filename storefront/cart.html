@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Your Bag — Tide & Bloom</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="components.css">
+</head>
+<body>
+  <header class="site-header wrap">
+    <a class="logo" href="index.html">Tide &amp; Bloom</a>
+    <nav><a href="amalfi.html">Shop Amalfi</a></nav>
+  </header>
+
+  <main class="wrap page-shell">
+    <div class="section-heading">
+      <p class="eyebrow">Your selections</p>
+      <h1>Shopping Bag</h1>
+    </div>
+
+    <div class="cart-layout">
+      <section id="cart-items" aria-live="polite"></section>
+      <aside class="order-summary">
+        <h2>Order Summary</h2>
+        <div class="summary-row"><span>Subtotal</span><strong id="subtotal">$0.00</strong></div>
+        <p>Shipping and taxes are calculated at checkout.</p>
+        <button class="button button--primary" id="checkout-button" type="button">Continue to Checkout</button>
+      </aside>
+    </div>
+  </main>
+
+  <script type="module" src="cart.js"></script>
+</body>
+</html>
