@@ -1,0 +1,138 @@
+{
+  "brand": "Tide & Bloom",
+  "tagline": "Made for Sunny Days & Salty Waves",
+  "collections": [
+    {
+      "id": "col_01",
+      "number": 1,
+      "slug": "amalfi-citrus-club",
+      "name": "Amalfi Citrus Club",
+      "season": "Spring",
+      "theme": "Italian Coast",
+      "status": "pilot",
+      "colors": ["#C9DCE8", "#F0D98A", "#D98868", "#FBF8F3"],
+      "motifs": ["lemons", "oranges", "Italian stamps", "bows", "blue tiles", "scooters", "postcards", "sailing"]
+    },
+    {
+      "id": "col_02",
+      "number": 2,
+      "slug": "shell-bloom",
+      "name": "Shell Bloom",
+      "season": "Spring",
+      "theme": "Feminine Coastal",
+      "status": "planned",
+      "colors": ["#F4C2C2", "#ECDA9A", "#FFFFFF"],
+      "motifs": ["shells", "hibiscus", "coral", "suns", "sea fans", "pearls", "waves", "blush florals"]
+    },
+    {
+      "id": "col_03",
+      "number": 3,
+      "slug": "coral-reef-club",
+      "name": "Coral Reef Club",
+      "season": "Spring",
+      "theme": "Ocean Inspired",
+      "status": "planned",
+      "colors": ["#9FC2C7", "#DE7E62", "#1F4E5B"],
+      "motifs": ["coral", "seahorses", "tropical fish", "shells", "sea grass"]
+    },
+    {
+      "id": "col_04",
+      "number": 4,
+      "slug": "pink-cabana-club",
+      "name": "Pink Cabana Club",
+      "season": "Summer",
+      "theme": "Resort Pool",
+      "status": "planned",
+      "colors": ["#E8A9C7", "#FFFFFF", "#F0D98A"],
+      "motifs": ["pink umbrellas", "striped towels", "cocktails", "pool floats", "sunglasses"]
+    },
+    {
+      "id": "col_05",
+      "number": 5,
+      "slug": "hibiscus-hotel",
+      "name": "Hibiscus Hotel",
+      "season": "Summer",
+      "theme": "Luxury Resort",
+      "status": "planned",
+      "colors": ["#E07A5F", "#F4F1DE", "#3D405B"],
+      "motifs": ["oversized hibiscus", "room keys", "palm trees", "cocktails"]
+    },
+    {
+      "id": "col_06",
+      "number": 6,
+      "slug": "surf-motel",
+      "name": "Surf Motel",
+      "season": "Summer",
+      "theme": "Vintage California",
+      "status": "planned",
+      "colors": ["#F2CC8F", "#81B29A", "#E07A5F"],
+      "motifs": ["surfboards", "VW vans", "motel keys", "sunsets", "waves"]
+    },
+    {
+      "id": "col_07",
+      "number": 7,
+      "slug": "yacht-club-toile",
+      "name": "Yacht Club Toile",
+      "season": "Resort",
+      "theme": "Classic Luxury",
+      "status": "planned",
+      "colors": ["#1B263B", "#E0E1DD", "#415A77"],
+      "motifs": ["sailboats", "rope", "anchors", "coastal toile", "navy stripes"]
+    },
+    {
+      "id": "col_08",
+      "number": 8,
+      "slug": "seashell-social-club",
+      "name": "Seashell Social Club",
+      "season": "Resort",
+      "theme": "Elegant Beach",
+      "status": "planned",
+      "colors": ["#E2ECE9", "#DFE7FD", "#FDE2E4"],
+      "motifs": ["pearl oysters", "shells", "pearls", "sand dollars"]
+    },
+    {
+      "id": "col_09",
+      "number": 9,
+      "slug": "dolce-mare",
+      "name": "Dolce Mare",
+      "season": "Resort",
+      "theme": "Italian Vacation",
+      "status": "planned",
+      "colors": ["#2B2620", "#AB8C52", "#C9DCE8"],
+      "motifs": ["Vespa", "bougainvillea", "coastal village", "espresso", "postcards"]
+    },
+    {
+      "id": "col_10",
+      "number": 10,
+      "slug": "salty-cowgirl",
+      "name": "Salty Cowgirl",
+      "season": "Fall/Holiday",
+      "theme": "Coastal Western",
+      "status": "planned",
+      "colors": ["#D98868", "#AB8C52", "#FBF8F3"],
+      "motifs": ["cowboy boots", "horseshoes", "surfboards", "palms", "western rope"]
+    },
+    {
+      "id": "col_11",
+      "number": 11,
+      "slug": "nantucket-picnic",
+      "name": "Nantucket Picnic",
+      "season": "Fall/Holiday",
+      "theme": "East Coast Classic",
+      "status": "planned",
+      "colors": ["#1D3557", "#457B9D", "#E63946"],
+      "motifs": ["lobsters", "hydrangeas", "lemons", "wicker", "blue stripes"]
+    },
+    {
+      "id": "col_12",
+      "number": 12,
+      "slug": "island-fruit-club",
+      "name": "Island Fruit Club",
+      "season": "Fall/Holiday",
+      "theme": "Bright Tropical",
+      "status": "planned",
+      "colors": ["#2A9D8F", "#E9C46A", "#F4A261"],
+      "motifs": ["pineapple", "coconut", "dragonfruit", "citrus", "monstera"]
+    }
+  ]
+}
