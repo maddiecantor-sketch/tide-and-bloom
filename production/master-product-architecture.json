@@ -1,0 +1,18 @@
+{
+  "skuFormat": "TB-{collectionCode}-{categoryCode}-{productNumber}-{variant}",
+  "marginTarget": 0.35,
+  "categories": [
+    {"code":"WS","name":"Women's Swim","products":["Triangle Bikini","Bandeau Bikini","High-Waist Bikini","One-Piece Swimsuit","Swim Cover-Up"]},
+    {"code":"MS","name":"Men's Swim","products":["Classic Swim Trunks","Tailored Swim Shorts","Rash Guard"]},
+    {"code":"KS","name":"Kids Swim","products":["Girls One-Piece","Girls Bikini","Boys Swim Trunks","Kids Rash Guard"]},
+    {"code":"BB","name":"Baby","products":["Baby Swimsuit","Baby Rash Guard Set","Sun Hat","Bodysuit"]},
+    {"code":"MF","name":"Matching Family","products":["Family Swim Bundle","Couples Swim Set","Mom and Mini Set","Dad and Mini Set"]},
+    {"code":"RW","name":"Resort Wear","products":["Slip Dress","Button-Down Shirt","Sarong","Wide-Leg Pant","Kimono"]},
+    {"code":"PJ","name":"Pajamas","products":["Women's Pajama Set","Men's Pajama Set","Kids Pajama Set","Family Pajama Bundle"]},
+    {"code":"GT","name":"Graphic Apparel","products":["Graphic Tee","Oversized Tee","Crewneck","Hoodie","Tank"]},
+    {"code":"AC","name":"Accessories","products":["Canvas Tote","Beach Bag","Bucket Hat","Cap","Phone Case","Sticker Pack"]},
+    {"code":"HM","name":"Home and Beach","products":["Beach Towel","Throw Blanket","Pillow","Mug","Tumbler","Art Print"]}
+  ],
+  "requiredFields": ["sku","title","collection","category","supplier","baseCost","retailPrice","artworkFile","mockupFiles","sizes","status"],
+  "statuses": ["concept","artwork-ready","sample-ordered","approved","listed","live","retired"]
+}
